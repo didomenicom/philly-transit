@@ -1,0 +1,1214 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"types": [
+				{
+					"name": "Stations",
+					"values": [
+						{
+							"id": null,
+							"name": {
+								"value": "30th Street Station",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "49th St",
+								"synonyms": [
+									"49th street",
+									"49 street"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Airport Terminal A",
+								"synonyms": [
+									"Airport Terminal A"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Airport Terminal B",
+								"synonyms": [
+									"Airport Terminal B"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Airport Terminal C-D",
+								"synonyms": [
+									"Airport Terminal C",
+									"Airport Terminal D",
+									"Airport Terminal Die"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Airport Terminal E-F",
+								"synonyms": [
+									"Airport Terminal E",
+									"Airport Terminal F"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Allegheny",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Allen Lane",
+								"synonyms": [
+									"Allen Lane",
+									"Allan Lane"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Ambler",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Angora",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Ardmore",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Ardsley",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Bala",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Berwyn",
+								"synonyms": [
+									"berwin"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Bethayres",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Bridesburg",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Bristol",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Bryn Mawr",
+								"synonyms": [
+									"Bryn Mawr",
+									"Bryn More",
+									"Bryn Mar"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Carpenter",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Chalfont",
+								"synonyms": [
+									"Shallfont",
+									"Shellphone",
+									"shellfont",
+									"shallfun",
+									"shall fung",
+									"shall fun",
+									"shell font",
+									"shall font",
+									"shell funt"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Chelten Avenue",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Cheltenham",
+								"synonyms": [
+									"shelltonham"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Chester TC",
+								"synonyms": [
+									"Chester Transportation Center",
+									"Chester"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Chestnut Hill East",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Chestnut Hill West",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Churchmans Crossing",
+								"synonyms": [
+									"Churchmans Crossing"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Claymont",
+								"synonyms": [
+									"clement",
+									"clament"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Clifton-Aldan",
+								"synonyms": [
+									"Clifton Aldan"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Colmar",
+								"synonyms": [
+									"Colemar"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Conshohocken",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Cornwells Heights",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Crestmont",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Croydon",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Crum Lynne",
+								"synonyms": [
+									"Crum Lynne",
+									"Crum Lynn"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Curtis Park",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Cynwyd",
+								"synonyms": [
+									"Kinwid"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Daylesford",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Darby",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Delaware Valley College",
+								"synonyms": [
+									"D.V.C.",
+									"delaware valley univerity",
+									"d.v.u"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Devon",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Downingtown",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Doylestown",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "East Falls",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Eastwick Station",
+								"synonyms": [
+									"East Wick Station"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Eddington",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Eddystone",
+								"synonyms": [
+									"eddy stone",
+									"eddie stone"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Elkins Park",
+								"synonyms": [
+									"Elkins Park"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Elm St",
+								"synonyms": [
+									"Elm Street"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Elwyn Station",
+								"synonyms": [
+									"Elwyn Station",
+									"El win",
+									"Elywin"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Exton",
+								"synonyms": [
+									"exten"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Fern Rock TC",
+								"synonyms": [
+									"fern rock",
+									"fern rock transportation center",
+									"burn rock",
+									"firm rock"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Fernwood",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Folcroft",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Forest Hills",
+								"synonyms": [
+									"Forest Hills"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Ft Washington",
+								"synonyms": [
+									"Fort Washington"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Fortuna",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Fox Chase",
+								"synonyms": [
+									"Fox Chase"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Germantown",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Gladstone",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Glenolden",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Glenside",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Gravers",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Gwynedd Valley",
+								"synonyms": [
+									"Gwynedd Valley"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Hatboro",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Haverford",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Highland Ave",
+								"synonyms": [
+									"Highland Avenue"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Highland",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Holmesburg Jct.",
+								"synonyms": [
+									"Holmesburg Junction"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Ivy Ridge",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Jenkintown-Wyncote",
+								"synonyms": [
+									"Jenkintown Wyncote",
+									"Jenkintown Win Coat"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Langhorne",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Lansdale",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Levittown",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Link Belt",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Main St.",
+								"synonyms": [
+									"Main Street"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Malvern",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Manayunk",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Marcus Hook",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Market East",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Meadowbrook",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Media",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Melrose Park",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Merion",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Miquon",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Morton",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Moylan-Rose Valley",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Mt Airy",
+								"synonyms": [
+									"Mount Airy"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Narberth",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Neshaminy Falls",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "New Britain",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Newark",
+								"synonyms": [
+									"new ark",
+									"no ark"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Noble",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Norristown TC",
+								"synonyms": [
+									"Norristown Transportation Center"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "North Broad St",
+								"synonyms": [
+									"North Broad Street"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "North Hills",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "North Philadelphia",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "North Wales",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Norwood",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Olney",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Oreland",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Overbrook",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Paoli",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Penllyn",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Pennbrook",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Philmont",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Primos",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Prospect Park",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Queen Lane",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Radnor",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Ridley Park",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Rosemont",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Roslyn",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Rydal",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Ryers",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Secane",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Sedgwick",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Sharon Hill",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Somerton",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Spring Mill",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "St. Davids",
+								"synonyms": [
+									"Saint Davids"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "St. Martins",
+								"synonyms": [
+									"Saint Martins"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Stenton",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Strafford",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Suburban Station",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Swarthmore",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Tacony",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Temple U",
+								"synonyms": [
+									"Temple University",
+									"temple"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Thorndale",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Torresdale",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Trenton",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Trevose",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Tulpehocken",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "University City",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Upsal",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Villanova",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wallingford",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Warminster",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Washington Lane",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wayne Jct",
+								"synonyms": [
+									"Wayne Junction"
+								]
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wayne Station",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "West Trenton",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Whitford",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Willow Grove",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wilmington",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wissahickon",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wister",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Woodbourne",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wyndmoor",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wynnefield Avenue",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Wynnewood",
+								"synonyms": []
+							}
+						},
+						{
+							"id": null,
+							"name": {
+								"value": "Yardley",
+								"synonyms": []
+							}
+						}
+					]
+				}
+			],
+			"intents": [
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				},
+				{
+					"name": "DirectTrip",
+					"samples": [
+						"when does the next train from {originStation} leave for {finalStation}",
+						"for {originStation} to {finalStation}",
+						"{originStation} to {finalStation}"
+					],
+					"slots": [
+						{
+							"name": "originStation",
+							"type": "Stations"
+						},
+						{
+							"name": "finalStation",
+							"type": "Stations"
+						}
+					]
+				}
+			],
+			"invocationName": "philly transit"
+		}
+	}
+}
