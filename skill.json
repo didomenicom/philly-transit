@@ -1,0 +1,37 @@
+{
+	"skillManifest": {
+		"publishingInformation": {
+			"locales": {
+				"en-US": {
+					"summary": "Philly area transportation",
+					"examplePhrases": [
+						"Alexa, ask Philly Transit for Temple to Paoli"
+					],
+					"name": "Philly Transit",
+					"description": "This skill pulls information from Philadelphia regional transit system. It provides routes for getting between locations."
+				}
+			},
+
+			"testingInstructions": "TBD",
+
+			"//": "The category list is located at https://developer.amazon.com/docs/smapi/skill-manifest.html#category-enum",
+			"category": "NAVIGATION_AND_TRIP_PLANNER",
+
+			"isAvailableWorldwide": false,
+			"distributionCountries": [
+				"US"
+			]
+		},
+		"apis": {
+			"custom": {
+				"endpoint": {
+					"sourceDir": "./"
+				},
+				"interfaces": [
+					
+				]
+			}
+		},
+		"manifestVersion": "1.0"
+	}
+}

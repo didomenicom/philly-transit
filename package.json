@@ -1,0 +1,37 @@
+{
+	"name": "node-js-sample",
+	"version": "0.2.0",
+	"description": "Alexa skill for Philadelphia transit/transportation",
+	"contributors": [
+		"Mike Di Domenico <mike@mouseware.net> (http://mouseware.net/)",
+		"Jake Zebley <jake@jakezebley.com> (http://jakezebley.com/)"
+	],
+	"main": "index.js",
+	"keywords": [],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"engines": {
+		"node": ">=8.x"
+	},
+	"devEngines": {
+		"node": ">=8.x",
+		"npm": ">=4.x"
+	},
+	"devDependencies": {
+		"ask-cli": "1.0.0-beta.8",
+		"babel-eslint": "8.1.2",
+		"eslint": "4.14.0",
+		"eslint-plugin-jsx-a11y": "6.0.3",
+		"eslint-config-airbnb": "16.1.0",
+		"eslint-plugin-import": "2.8.0",
+		"eslint-plugin-react": "7.5.1"
+	},
+	"dependencies": {
+		"alexa-sdk": "1.0.24",
+		"aws-sdk": "2.175.0",
+		"node-rest-client": "3.1.0"
+	}
+}

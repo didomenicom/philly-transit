@@ -1,0 +1,22 @@
+{
+	"parser": "babel-eslint",
+	"extends": "airbnb",
+	"rules": {
+		////////// Strict Mode //////////
+		"strict": 0,
+
+		////////// Stylistic Issues //////////
+		"arrow-body-style": ["error", "always"],
+		"indent": [1, "tab", { "SwitchCase": 1, "MemberExpression": 0 }],
+		"keyword-spacing": ["error", { "overrides": { "if": { "after": false }, "for": { "after": false }, "while": { "after": false } } }],
+		"max-len": ["error", { "code": 150, "comments": 200, "ignoreTemplateLiterals": true}],
+		"no-tabs": "off",
+		"no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+		"semi": ["error", "never"],
+		"space-before-blocks": ["error", { "functions": "never", "keywords": "never", "classes": "always" }],
+
+		////////// ECMAScript 6 //////////
+		"no-var": 0,
+		"generator-star": 0
+	}
+}
