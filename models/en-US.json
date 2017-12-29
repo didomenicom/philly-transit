@@ -1194,6 +1194,7 @@
 					"samples": [
 						"when does the next train from {originStation} leave for {finalStation}",
 						"for {originStation} to {finalStation}",
+						"from {originStation} to {finalStation}",
 						"{originStation} to {finalStation}"
 					],
 					"slots": [

@@ -28,6 +28,7 @@ const debug = (startStation, endStation, route) => {
 const getSecondsFromHourMinutes = (inputTimeStr) => {
 	return new Promise((resolve) => {
 		let seconds = 0
+		console.log(inputTimeStr)
 		const parts = inputTimeStr.split(':')
 
 		if(inputTimeStr.indexOf('AM') > -1){
@@ -102,6 +103,7 @@ module.exports.getNext = (startStation, endStation, nextRouteIndex) => {
 
 				promiseArray.push(Promise.resolve()
 				.then(() => {
+					console.log(route)
 					const arrivalTime = (route.isdirect === true ? route.orig_arrival_time : route.term_arrival_time)
 					return getSecondsFromHourMinutes(arrivalTime) - getSecondsFromHourMinutes(route.orig_departure_time)
 				})
@@ -123,15 +125,29 @@ module.exports.getNext = (startStation, endStation, nextRouteIndex) => {
 	})
 }
 
-module.exports.generateText = (startStation, endStation, route) => {
+module.exports.generateText = (startStation, endStation, route, speak) => {
+	const spokenText = (typeof speak !== 'undefined' ? speak : true)
 	let responseText
 
-	if(route.orig_line === route.term_line){
-		// This is a direct route
-		responseText = `Take the direct train, ${route.orig_train}, from ${startStation} departing at ${route.orig_departure_time}, and arriving in ${endStation} at ${(route.isdirect === true ? route.orig_arrival_time : route.term_arrival_time)}`
+	if(route.orig_line !== undefined && route.term_line !== undefined){
+		// This is a route that could cross lines
+		if(route.orig_line === route.term_line){
+			// This is a direct route
+			responseText = `You want to take train number ${route.orig_train}${(spokenText === false ? `, from ${startStation}` : '')}, departing at ${route.orig_departure_time}. It arrives at ${endStation} at ${(route.isdirect === true && route.term_arrival_time !== undefined ? route.orig_arrival_time : route.term_arrival_time)}`
+		} else {
+			// This is an indirect route with a connection
+			responseText = `You want to take train number ${route.orig_train}${(spokenText === false ? `, from ${startStation}` : '')}, departing at ${route.orig_departure_time}. It arrives at ${route.Connection} at ${route.orig_arrival_time}. Then at ${route.term_depart_time}, take train number ${route.term_train} to ${endStation}. It will arrive at ${route.term_arrival_time}`
+		}
 	} else {
-		// This is an indirect route with a connection
-		responseText = `Take the train, ${route.orig_train}, from ${startStation} departing at ${route.orig_departure_time} to ${route.Connection}, then ${route.term_line}, train ${route.term_train} departing at ${route.term_depart_time} and arriving in ${endStation} at ${route.term_arrival_time}`
+		// This is a direct route on the same line
+		responseText = `You want to take train number ${route.orig_train}${(spokenText === false ? `, from ${startStation}` : '')}, departing at ${route.orig_departure_time}. It arrives at ${endStation} at ${(route.isdirect === false && route.term_arrival_time !== undefined ? route.term_arrival_time : route.orig_arrival_time)}`
+
+		// For debugging purposes to try and understand the APIs, lets log some info here if needed
+		if(route.isdirect === false){
+			// We have a direct route with an isdirect flag == false
+			console.log('Direct Route with isdirect == false')
+			console.log(route)
+		}
 	}
 
 	return responseText
